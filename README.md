@@ -4,6 +4,8 @@ HealthMax is a fictitious market leader in the shampoo industry. In this project
 
 ## Year Over Year Growth
 
+*(Imported dataset_shampoo.csv)*
+
 I started by calculating Key Performance Indicators (KPIs) such as market share and value growth on various time dimensions such as year-to-date (YTD) and moving annual total (MAT).
 
 ## Year to Date
@@ -54,10 +56,10 @@ The smallest shampoo size in HealthMax's portfolio is 100ml. Research has shown 
 
 I decided to launch the best rotating product, the Starbust Ultra Soft 100ml, in a 50ml format.
 
-*Assumptions: 
+(*Assumptions: 
 The Volume 2022 will be 10% of the volume of the 100ml pack in 2022.
 The retail price is a 50% mark-up of the price per ml of the 100ml pack.
-The Net Price is $2.30 and the COGS amount to $0.70.*
+The Net Price is $2.30 and the COGS amount to $0.70.*)
 
 The new 50ml Starburst Ultra Soft product will produce $365,960 in Net Sales.
 
