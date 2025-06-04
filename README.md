@@ -1,6 +1,6 @@
 # HealthMax
 
-HealthMax is a fictitious market leader in the shampoo industry. In this project, I analyzed their data to identify growth opportunities related to Net Revenue Management and came up with actionable insights to grow the business. 
+HealthMax is a fictitious market leader in the shampoo industry. In this project, I analyzed their data to identify growth opportunities related to Net Revenue Management (NRM) and came up with actionable insights to grow the business. 
 
 ## Year Over Year Growth
 
