@@ -4,8 +4,6 @@ HealthMax is a fictitious market leader in the shampoo industry. In this project
 
 ## Year Over Year Growth
 
-*(Imported dataset_shampoo.csv)*
-
 I started by calculating Key Performance Indicators (KPIs) such as market share and value growth on various time dimensions such as year-to-date (YTD) and moving annual total (MAT).
 
 ## Year to Date
@@ -28,8 +26,6 @@ I focused on two pillars of Net Revenue Management (NRM): Brand Portfolio Pricin
 
 HealthMax wanted to shift investments in between its products so I made a list of product prioritizations in function of their net sales and their profitability. I started by calculating the net sales for each product.
 
-*(Imported data from internal_sales_data.csv)*
-
 ## Gross Margin
 
 I made a scatter plot to compare the gross margin to the net sales contribution for the different products.
@@ -45,8 +41,6 @@ My estimated total units sold in 2024 in Organics was $1,020,899.
 ## New Product Launch
 
 HealthMax had two possible products that fit in the Organic Shampoo category that can be launched in the beginning of 2024. I identified the best candidate by making an estimation of expected net sales, gross profit, and gross margin for both products.
-
-*(Imported data new_product_launch.csv)*
 
 # Optimizing Net Revenue
 
@@ -66,8 +60,6 @@ The new 50ml Starburst Ultra Soft product will produce $365,960 in Net Sales.
 ## Promotion Management
 
 HealthMax played three different promotions on the Shinez brand in 2022. To build the strategy for 2024,I analyzed which promotions are the most effective by calculating the ROI for each.
-
-*(Imported promotion_analysis.csv)*
 
 ## Forecasting
 
