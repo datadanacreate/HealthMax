@@ -1,81 +1,138 @@
-# HealthMax
+# HealthMax Excel Project
 
-HealthMax is a fictitious market leader in the shampoo industry. In this project, I analyzed their data to identify growth opportunities related to Net Revenue Management (NRM) and came up with actionable insights to grow the business. 
+**HealthMax** is a fictitious market leader in the shampoo industry. In this project, I analyzed their data to identify growth opportunities related to **Net Revenue Management (NRM)** and generated actionable insights to help grow the business.
+
+---
 
 ## Year Over Year Growth
 
-I started by calculating Key Performance Indicators (KPIs) such as market share and value growth on various time dimensions such as year-to-date (YTD) and moving annual total (MAT).
+I began by calculating key performance indicators (KPIs) such as **market share** and **value growth** across various time dimensions, including:
 
-## Year to Date
+- **Year-to-Date (YTD)**
+- **Moving Annual Total (MAT)**
 
-The dataset contains unit and value sales per month for all years from 2018 to 2023. I looked at different time periods to calculate the Year-To-Date (YTD) for all the dataset points by using a SUMIFS() function.
+---
 
-## Moving Annual Total
+## Year to Date (YTD)
 
-Calculated the Moving Annual Total (MAT) for all the dataset points using a longer period than YTD.
+- The dataset includes unit and value sales per month from **2018 to 2023**.
+- Used the `SUMIFS()` function in Excel to calculate YTD values across all data points and time periods.
+
+---
+
+## Moving Annual Total (MAT)
+
+- Calculated MAT values over longer periods than YTD to understand trends and performance over rolling 12-month windows.
+
+---
 
 ## Market Share
 
-Create a new PivotTable to calculate the total value sales per year, per brand in a new worksheet called "Market Share" to see how HealthMax's brands evolved and if there are regional differences.
+- Created PivotTables to calculate total value sales by **year** and **brand**.
+- Built a dedicated worksheet named **"Market Share"** to track brand evolution and explore regional differences.
 
-# Net Revenue Management
+---
 
-I focused on two pillars of Net Revenue Management (NRM): Brand Portfolio Pricing and Mix Management. I calculated important KPIs such as net sales contribution and gross margin. I also used brand Portfolio Pricing to identify the correct price for HealthMax's consumers while also using Mix Management techniques to help HealthMax launch a new product and expand into a new subcategory.
+# Net Revenue Management (NRM)
+
+Focused on two key pillars of NRM:
+
+1. **Brand Portfolio Pricing**
+2. **Mix Management**
+
+Performed the following analyses:
+
+- Calculated KPIs such as **net sales contribution** and **gross margin**.
+- Used brand portfolio pricing to determine optimal pricing for consumers.
+- Applied mix management techniques to support launching a new product and expanding into a new shampoo subcategory.
+
+---
 
 ## Profitability Matrix
 
-HealthMax wanted to shift investments in between its products so I made a list of product prioritizations in function of their net sales and their profitability. I started by calculating the net sales for each product.
+- Compiled product prioritization based on **net sales** and **profitability**.
+- Calculated net sales for each product to guide investment shifts.
 
-## Gross Margin
+---
 
-I made a scatter plot to compare the gross margin to the net sales contribution for the different products.
+## Gross Margin Analysis
+
+- Created a scatter plot comparing **gross margin** versus **net sales contribution** for all products.
+
+---
 
 ## New Category Opportunity
 
-While looking at the brand mix, I noticed that HealthMax is only active in 2 out of the 5 shampoo subcategories and that it might be interesting to launch a new product to enter a new subcategory. To do so, I identified the fastest growing subcategory (in units), Organic, and made an estimation of the total Organic subcategory size for 2024.
+- Identified that HealthMax operates in only 2 of 5 shampoo subcategories.
+- Targeted the fastest growing subcategory: **Organic shampoos**.
+- Estimated the 2024 Organic subcategory size to be **20% higher** than the March 2023 MAT.
+- Projected total units sold in 2024: **1,020,899** units.
 
-Looking at the historic trend, I estimated that this category size for full year 2024 will be 20% higher than the March 2023 MAT values.
-
-My estimated total units sold in 2024 in Organics was $1,020,899.
+---
 
 ## New Product Launch
 
-HealthMax had two possible products that fit in the Organic Shampoo category that can be launched in the beginning of 2024. I identified the best candidate by making an estimation of expected net sales, gross profit, and gross margin for both products.
+- Evaluated two potential products for the Organic shampoo category launch in early 2024.
+- Estimated expected **net sales**, **gross profit**, and **gross margin** for each candidate.
+- Selected the best product based on these financial projections.
+
+---
 
 # Optimizing Net Revenue
 
 ## Price Pack Architecture
 
-The smallest shampoo size in HealthMax's portfolio is 100ml. Research has shown that people that travel are looking for shampoo bottles of 50ml so HealthMax is looking to create a smaller shampoo size. I calculated the potential of a smaller shampoo bottle:
+- The smallest current size is **100ml**.
+- Market research indicated demand for **50ml** travel-sized bottles.
+- Proposed launching the **Starburst Ultra Soft 50ml** as a smaller pack.
 
-I decided to launch the best rotating product, the Starbust Ultra Soft 100ml, in a 50ml format.
+**Assumptions:**
 
-(*Assumptions: 
-The Volume 2022 will be 10% of the volume of the 100ml pack in 2022.
-The retail price is a 50% mark-up of the price per ml of the 100ml pack.
-The Net Price is $2.30 and the COGS amount to $0.70.*)
+- 50ml volume = 10% of the 100ml pack volume (2022)
+- Retail price is a 50% markup on price per ml of 100ml pack
+- Net Price: $2.30; Cost of Goods Sold (COGS): $0.70
 
-The new 50ml Starburst Ultra Soft product will produce $365,960 in Net Sales.
+**Result:**  
+The new 50ml pack is expected to generate **$365,960** in net sales.
+
+---
 
 ## Promotion Management
 
-HealthMax played three different promotions on the Shinez brand in 2022. To build the strategy for 2024,I analyzed which promotions are the most effective by calculating the ROI for each.
+- Analyzed three different promotions for the **Shinez** brand in 2022.
+- Calculated ROI for each to identify the most effective promotional strategies for 2024.
+
+---
 
 ## Forecasting
 
-I forecasted the full year 2023 and 2024 using the Forecast Sheet function.
+- Used Excel’s **Forecast Sheet** function to predict full-year sales for **2023 and 2024**.
 
-## Waterfall
+---
 
-After calculating different opportunities based on the NRM pillars, I created a waterfall graph to show how these initiatives will have an impact on the company's net sales of 2024 compared to natural growth.
+## Waterfall Chart
 
-Look up the generated Net sales of the launch of the Organic shampoo (product 2) and the 50ml shampoo.
-Let's assume the growth initiatives don't cannibalize each other.
+- Created a waterfall chart illustrating how the NRM initiatives impact 2024 net sales compared to natural growth.
+- Combined sales estimates from:
+  - Organic shampoo launch (product 2)
+  - 50ml shampoo launch
+  - Other initiatives
+- Total 2024 sales projection: **$21,411,568.78**
 
-The 2024 sales estimate is all the initiatives added together (including the natural growth) for a total of **$21,411,568.78**.
+*Note:* Assumes growth initiatives do not cannibalize each other.
 
- As shown, the NRM initiatives generate more net sales than natural growth.								
+---
 
 ## Conclusion
 
-In conclusion, I analyzed the full shampoo category, discovered interesting insights, and identified the key players in the market. I calculated important KPIs like growth and market share, but also calculated more complex metrics like YTD and MAT to better support my analysis. I also forecasted the net sales for the coming year and showed that the NRM initiatives can unlock extra growth potential. Finally, I prepared clear strategic recommendations on how the company can increase its net sales and profitability.
+- Conducted a comprehensive analysis of the shampoo category.
+- Calculated crucial KPIs including growth, market share, YTD, and MAT.
+- Forecasted net sales for upcoming years.
+- Demonstrated that NRM initiatives can unlock additional growth potential.
+- Provided strategic recommendations to increase HealthMax’s net sales and profitability.
+
+---
+
+Thank you for reviewing this project! Feel free to explore the Excel workbook and reach out with any questions or feedback.
+
+---
